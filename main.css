@@ -1,0 +1,643 @@
+/*!
+Main CSS
+ */
+
+body,
+html {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(250, 233, 233);
+    scroll-behavior: smooth;
+	min-width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	
+
+}
+::-webkit-scrollbar{
+	
+}
+*{
+	box-sizing: border-box;
+}
+
+.content-section {
+	padding-top: 7.5rem;
+	padding-bottom: 7.5rem;
+}
+
+.content-section-heading h2 {
+	font-size: 3rem;
+}
+
+.content-section-heading h3 {
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+#brownieImg {
+
+
+}
+
+    #ingredients_sandwich {
+
+        margin-left: 25px;
+
+        background-color: ;
+        float: left;
+        width: 320px;
+        height: 300px;
+        padding: 0px 0px 0px 20px;
+        text-align: left;
+        margin-bottom: 40px;
+        display: block;
+    }
+
+    #calories_sandwich {
+        margin-left: 25px;
+
+        background-color: ;
+        float: left;
+        width: 320px;
+        height: 300px;
+        padding: 0px 0px 0px 20px;
+        text-align: left;
+        display: block;
+        margin-bottom: 100px;
+
+    }
+
+
+h4 {
+	font-size: 13pt;
+	font-family: 'Roboto', sans-serif;
+    color: brown;
+}
+
+h3 {
+	color: black;
+
+	border-bottom: 1px solid #E5CFA8;
+	line-height: 30px;
+	padding-left: 20px;
+	font-family: 'verdana', sans-serif;
+	font-size: 16pt;
+	margin-top: 2rem;
+
+
+
+}
+
+/* vars */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 500;
+	font-family: 'verdana';
+}
+
+p {
+	font-family: 'Avenir Light';
+}
+
+#Text{
+    margin-top: 50px;
+    font-size: 18px;
+    opacity: 78%;
+    color: white;
+    background-color: black;
+    padding: 20px;
+	text-align: left;
+    width: 60%;
+	
+}
+.container recipe img{
+    padding-left: 70px;
+}
+
+.text-faded {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+navbar {
+	animation-name: drop;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes drop {
+	from {
+		top: -100px;
+	}
+}
+.row h1{color: black;
+    font-size: 25px;
+    margin-left: -20px;
+	text-align: center;
+	display: block;
+}
+
+
+/* ************************************************ */
+
+.ingredients-img{
+	width: 100%;
+	height: 300px;
+	max-width: 400px;
+	position: relative;
+	margin: auto;
+	transform: scale(0.6);
+  }
+  .ingredients-img img{
+	position: absolute;
+	left: 50%;
+	/* transform: translate(-50%,0); */
+  }
+  .bread-top{
+
+  }
+  .cheese-top{
+	top: 5%;
+  }
+  .onion{
+	top: 12%;
+  }
+  .tomato{
+	top: 25%;
+  }
+  .cucumber{
+	top: 43%;
+  }
+  .cheese-bottom{
+	top: 55%;
+  }
+  .bread-bottom{
+	top: 62%;
+  }
+/* ****************************************** */
+.burger_container{
+	width: 100%;
+	height: 700px;
+	display: flex;
+}
+.left_col{
+	flex: 40%;
+	padding-top: 70px;
+}
+
+.right_col{
+	flex: 60%;
+	display: inline-block;
+
+
+}
+.box2{
+	background-color: black;
+    opacity: 70%;
+	padding: 20px 10px;
+	width: 40rem;
+    
+}
+.box2 h4{
+	background-color: #ffcc33;
+	display: inline-block;
+	width: 200px;
+	padding: 18px 0;
+	font-size: 1.2rem;
+	text-align: center;
+	margin: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	font-weight: bolder;
+	letter-spacing: 1px;
+
+}
+.box2 ul{
+	margin-top: 10px;
+
+}
+
+.box2 ul li{
+
+	margin-left: -20px;
+	list-style: none;
+	font-size: 1.3rem;
+	color: #fff;
+}
+.cal_col_1{
+
+	display: inline-block;
+}
+.cal_col_2{
+
+	margin-left:5% ;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+.row{
+	width: 100%;
+	
+
+	text-align: center;
+}
+.sec_txt{
+	width: 95%;
+	
+	/* height: 60%; */
+	margin: 20px auto;
+	text-align: center;
+	margin-top: 10rem;
+
+}
+.sec_txt p{
+	margin-top: 4rem;
+	color: #fff;
+	font-size: 1.3rem;
+	text-align: left;
+	line-height: 30px;
+	padding: 60px 30px;
+    width: 60%;
+    margin-right: auto;
+	margin-left: auto;
+	background: rgba(00, 00, 00, 0.7);
+
+}
+.sec_txt h1{
+
+	color: black;
+	font-size: 1.5rem;
+     
+	background-color: #ffcc33;
+	display: inline;
+	padding: 15px 65px;
+   
+}
+/* ************************************************** */
+.video{
+	width: 90%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5rem;
+}
+/* ******************************************************************************* */
+.sec1{
+	width: 100%;
+	margin-top: 10rem;
+	
+	text-align: center;
+}
+.sec1 h1{
+
+	color: black;
+	font-size: 1.5rem;
+	background-color: #ffcc33;
+	display: inline;
+	padding: 15px 65px;
+}
+/* ************************************************** */
+
+.sec2{
+	width: 100%;
+	height: 50%;
+	margin-top: 10rem;
+	text-align: center;
+}
+
+.sec2 h1{
+	color: black;
+	font-size: 1.5rem;
+	background-color: #ffcc33;
+	display: inline;
+	padding: 15px 85px;
+    margin-top: 40px;
+   
+}
+.map{
+	margin-top: 5rem;
+	width: 100%;
+}
+.map iframe{
+	width: 50%;
+}
+.footer{
+	margin-top: 15rem;
+	text-align: center;
+	height: 2.5rem;
+	font-family: Arial, Helvetica, sans-serif;
+	/* display: flex;
+	align-content: center;
+	justify-content: center; */
+	font-size: 1.2rem;
+	padding-top: 5px;
+	color: #fff;
+	background-color: #663300;
+	width: 100%;
+}
+/* ************************************************************ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////////// */
+.lead {
+	font-size: 15pt;
+}
+
+
+/* top button */
+
+.scroll-to-top {
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	display: none;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	color: #ffffff;
+	background: #4A7184;
+	line-height: 45px;
+	&:focus,
+	&:hover {
+		color: #ffffff;
+	}
+	&:hover {
+		background: white;
+	}
+}
+
+
+/* modal */
+
+.modal-body {
+	background-color: #ffffff;
+	background-image: ;
+}
+
+.me{
+    border: double 2px orange;
+    margin: 20px;
+}
+/* The animation code */
+
+@keyframes fadeon {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.masthead {
+	opacity: 0;
+	min-height: 30rem;
+	position: relative;
+	display: table;
+	width: 100%;
+	height: auto;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+
+    background-image: url(images/image%201.jpg);
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	animation-name: fadeon;
+	animation-delay: 1s;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+.masthead h1 {
+	font-size: 4rem;
+	margin: 0;
+	padding: 0;
+}
+
+@media (min-width: 992px) {
+	.masthead {
+		height: 100vh;
+	}
+	.masthead h1 {
+		font-size: 5.5rem;
+	}
+
+}
+@media(max-width:992px){
+	.right_col{
+flex: 100%;
+		/* display: none; */
+	}
+	.box2{
+		margin: auto;
+		width: auto;
+		height: auto;
+		padding-bottom: 20px;
+	}
+	.burger_container{
+		height: auto;
+	}
+	.sec_txt{
+		margin-top: 6rem;
+	}
+	.burger_container{
+		flex-direction: column;
+	}
+	.sec_txt{
+		height: auto;
+	}
+	.ingredients-img{
+		margin-bottom: 350px;
+	}
+	.left_col{
+		flex: 100%;
+	}
+
+}
+@media (max-width: 576px) {
+	.cal_col_1,
+	.cal_col_2{
+		width: 100%;
+		display: block;
+		padding: 0;
+		margin: 0;
+		padding-left: 20px;
+	}
+	.box2 ul li{
+		padding: 0;
+		margin: auto;
+	}
+}
+@media(max-width:768px){
+	#Text{
+		font-size: 12px;
+	}
+	.sec1{
+		margin-top: 5rem;
+	}
+
+}
+@media(max-width:400px){
+	#Text{
+		font-size: 11px;
+	}
+	.sec1{
+		margin-top: 10rem;
+	}
+	.sec_txt{
+		margin-top: 10rem;
+	}
+	.sec_txt p{
+		margin-top:5rem;
+		font-size: 18px;
+		padding: 20px 20px;
+		line-height: 17px;
+		letter-spacing: 1px;
+		overflow: scroll;
+	}
+
+}
+
+
+/* content */
+
+.image-section {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	max-width: 530px;
+	margin: auto auto 1rem;
+}
+
+.image-section .caption {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(33, 37, 41, 0.5);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+}
+
+.image-section .caption .caption-content {
+	color: #fff;
+	margin: auto 2rem 2rem;
+}
+
+.image-section .caption .caption-content h2 {
+	font-size: 0.8rem;
+	text-transform: uppercase;
+}
+
+
+/*contact*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+#regForm {
+  background-color: black;
+  margin: 100px auto;
+  font-family: Raleway;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+  border-radius: 10px;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+  font-weight: bold;
+  color: white;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: 5px solid white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: white;
+  border: none;
+  border-radius: 20%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: white;
+}
